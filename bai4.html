@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Converter</title>
+<link rel="stylesheet" href="bai4.css">
+</head>
+<body>
+
+<h1>Unit Converter</h1>
+
+<div id="converter">
+    <input type="number" id="inputValue" placeholder="Nhập giá trị...">
+    <select id="inputUnit">
+        <option value="meter">Meter</option>
+        <option value="feet">Feet</option>
+        <option value="inch">Inch</option>
+    </select>
+    <span>sang</span>
+    <select id="outputUnit">
+        <option value="meter">Meter</option>
+        <option value="feet">Feet</option>
+        <option value="inch">Inch</option>
+    </select>
+    <button onclick="convert()">Chuyển đổi</button>
+</div>
+
+<div id="result"></div>
+
+<script src="bai4.js"></script>
+
+</body>
+</html>

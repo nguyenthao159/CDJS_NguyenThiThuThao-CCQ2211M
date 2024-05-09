@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 241, 70);
+}
+
+#converter {
+    margin-bottom: 20px;
+    color: rgb(175, 20, 226);
+}
+
+input, select, button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px;
+    color: coral;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}

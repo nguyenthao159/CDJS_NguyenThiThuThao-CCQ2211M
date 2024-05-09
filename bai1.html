@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Thông Tin Sinh Viên</title>
+</head>
+<body>
+
+<h2>Form Thông Tin Sinh Viên</h2>
+<form id="studentForm">
+    <label for="maSV">Mã SV:</label><br>
+    <input type="text" id="maSV" name="maSV" pattern="21[0-9]{8}" title="Mã SV phải bắt đầu bằng 21 và có tổng cộng 10 chữ số" required><br>
+
+    <label for="hoTen">Họ Tên:</label><br>
+    <input type="text" id="hoTen" name="hoTen" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="dienThoai">Điện Thoại:</label><br>
+    <input type="tel" id="dienThoai" name="dienThoai" pattern="(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})\b" title="Số điện thoại không hợp lệ" required><br>
+
+    <label for="lop">Lớp:</label><br>
+    <input type="text" id="lop" name="lop" pattern="CCQ.{5,6}" title="Lớp phải bắt đầu bằng CCQ và có 8 hoặc 9 ký tự" required><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<div id="errorMessages"></div>
+
+<script src="bai1.js"></script>
+
+</body>
+</html>
