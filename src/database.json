@@ -1,0 +1,243 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    },
+    {
+      "id": "2",
+      "image": "hinhanh.jpg",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    },
+    {
+      "id": "3",
+      "image": "hinhanh.jpg",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    },
+    {
+      "id": "4",
+      "image": "hinhanh.jpg",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    },
+    {
+      "id": "5",
+      "image": "hinhanh.jpg",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    },
+    {
+      "id": "6",
+      "image": "hinhanh.jpg",
+      "name": "vay cuoi",
+      "category": "vay cuoi",
+      "brand": "vietnam"
+    }
+  ],
+  "categorys": [
+    {
+      "id": "1",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    },
+    {
+      "id": "2",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    },
+    {
+      "id": "3",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    },
+    {
+      "id": "4",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    },
+    {
+      "id": "5",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    },
+    {
+      "id": "6",
+      "image": "hinhanh.png",
+      "name": "vay cuoi",
+      "slug": "vay cuoi"
+    }
+  ],
+  "banner": [
+    {
+      "id": 0,
+      "name": "Slider",
+      "link": "#",
+      "image": "slide.png",
+      "position": "slide",
+      "description": "Slider"
+    },
+    {
+      "id": 1,
+      "name": "Slider 1",
+      "link": "#",
+      "image": "slide1.png",
+      "position": "slide",
+      "description": "Slider 1"
+    }
+  ],
+  "brand": [
+    {
+      "id": 0,
+      "name": "Nike",
+      "image": "nike.png",
+      "slug": "nike"
+    },
+    {
+      "id": 1,
+      "name": "Adidas",
+      "image": "adidas.png",
+      "slug": "adidas"
+    }
+  ],
+  "contact": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "name": "I don't no",
+      "email": "tuyetnhi@gmail.com",
+      "phone": "0122358589",
+      "title": "Bạn nhi điên"
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "I don't no",
+      "email": "vanthanh@gmail.com",
+      "phone": "0989845684",
+      "title": "Chịuuuuuu"
+    }
+  ],
+  "menu": [
+    {
+      "id": 0,
+      "name": "Trang chủ",
+      "link": "/",
+      "table_id": 0
+    },
+    {
+      "id": 1,
+      "name": "Sảm phẩm",
+      "link": "/san-pham",
+      "table_id": 0
+    },
+    {
+      "id": 2,
+      "name": "Bài viết",
+      "link": "/bai-viet",
+      "table_id": 0
+    }
+  ],
+  "post": [
+    {
+      "id": 0,
+      "topic_id": 1,
+      "image": "baiviet1.png",
+      "title": "Bài viết 1",
+      "slug": "bai-viet-1"
+    },
+    {
+      "id": 1,
+      "topic_id": 2,
+      "image": "baiviet2.png",
+      "title": "Bài viết 2",
+      "slug": "bai-viet-2"
+    },
+    {
+      "id": 2,
+      "topic_id": 3,
+      "image": "baiviet3.png",
+      "title": "Bài viết 3",
+      "slug": "bai-viet-3"
+    }
+  ],
+  "order": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "name": "Tuyết Nhi",
+      "phone": "0122358589",
+      "email": "tuyetnhi@gmail.com",
+      "address": "Tp. Hồ Chí Minh",
+      "note": "abc"
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Tuyết Nhi ...",
+      "phone": "0989845684",
+      "email": "tuyetnhi@gmail.com",
+      "address": "Tp. Thủ Đức",
+      "note": "abc"
+    }
+  ],
+  "orderdetail": [
+    {
+      "id": 0,
+      "order_id": 0,
+      "product_id": 0,
+      "price": 50000,
+      "qty": 3
+    },
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "price": 40000,
+      "qty": 5
+    }
+  ],
+  "user": [
+    {
+      "id": 0,
+      "name": "Tuyết Nhi",
+      "email": "tuyetnhi@gmail.com",
+      "phone": "0122358589",
+      "username": "tuyetnhidien",
+      "password": "123456",
+      "address": "Tp. Hồ Chí Minh",
+      "image": "anh.png"
+    },
+    {
+      "id": 1,
+      "name": "Tuyết Nhi ...",
+      "email": "tuyetnhi@gmail.com",
+      "phone": "0122358589",
+      "username": "tuyetnhihap",
+      "password": "123456",
+      "address": "Tp. Thủ Đức",
+      "image": "default.png"
+    }
+  ],
+  "topic": [
+    {
+      "id": 0,
+      "name": "Tin tức",
+      "slug": "tin-tuc",
+      "description": "Tin tức"
+    }
+  ]
+}
